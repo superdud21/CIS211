@@ -27,8 +27,8 @@ int main()
 	fpercent = numfemales * 100;
 
 	//Dislay results in percent form
-	cout << fixed << setprecision(2) << "Percent of males is: " << mpercent << "%" << endl;
-	cout << fixed << setprecision(2) << "Percent of females is: " << fpercent << "%" << endl;
+	cout << setprecision(2) << "Percent of males is: " << mpercent << "%" << endl;
+	cout << setprecision(2) << "Percent of females is: " << fpercent << "%" << endl;
 
 	system("pause");
 	return 0;
