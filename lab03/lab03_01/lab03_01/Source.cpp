@@ -12,9 +12,9 @@ int main()
 	double milesPerGallon;
 	
 	//Display questions and get user input
-	cout << "Enter number of miles traveled: " << endl;
+	cout << "Enter number of miles traveled: ";
 	cin >> miles;
-	cout << "Enter number of gallons of gas used: " << endl;
+	cout << "Enter number of gallons of gas used: ";
 	cin >> gallons;
 
 	//Calculate Miles Per Gallon
