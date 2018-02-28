@@ -1,4 +1,4 @@
-/*CalebCameron
+/*Caleb Cameron
 This program was to try a menu in my program*/
 
 #include <iostream>
@@ -12,9 +12,9 @@ void authorprogram();
 int main()
 {
 	menu();
-	
+
 	char userChoice = 0;
-	
+
 	cout << "Please Choose and Option: ";
 	cin >> userChoice;
 
@@ -24,7 +24,21 @@ int main()
 		switch (userChoice)
 		{
 		case 'A':
-			cout << "I DID IT FREAKING FINALLY!"<< endl;
+			double numberone;
+			double numbertwo;
+
+			cout << "Please enter two numbers as prompted: " << endl
+				<< "Number 1: ";
+			cin >> numberone;
+			cout << "Number 2: ";
+			cin >> numbertwo;
+
+			if (numberone > numbertwo)
+				cout << " " << numberone << " is greater than " << numbertwo << endl;
+			else if (numberone < numbertwo)
+				cout << " " << numberone << " is less than " << numbertwo << endl;
+			else
+				cout << "These two numbers are equal." << endl;
 			break;
 		case 'B':
 			authorprogram();
@@ -41,6 +55,7 @@ void menu()
 {
 	char userChoice = 0;
 	cout << "Welcome!" << endl
+		<< "*****************************************************************************************" << endl
 		<< "This program is designed to ask for two numbers and determine which number is the maximum" << endl
 		<< "and which number is the minimum" << endl
 		<< "(A) Proceed" << endl
@@ -48,7 +63,7 @@ void menu()
 		<< "(C) Exit" << endl
 		<< "*****************************************************************************************" << endl;
 
-	
+
 }
 
 void authorprogram()
