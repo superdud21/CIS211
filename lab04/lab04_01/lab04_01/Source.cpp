@@ -3,6 +3,7 @@ This program is designed to take two numbers through user input and determine wh
 is the minimum.
 */
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -16,12 +17,15 @@ int main()
 	cout << "Number 2: ";
 	cin >> numbertwo;
 
-	if (numberone > numbertwo)
+	cout << (numberone > numbertwo 'The first number is larger' : "The second number is larger");
+
+	/*if (numberone > numbertwo)
 		cout << " " << numberone << " is greater than " << numbertwo << endl;
 	else if (numberone < numbertwo)
 		cout << " " << numberone << " is less than " << numbertwo << endl;
 	else
-		cout << "These two numbers are equal." << endl;
+		cout << "These two numbers are equal." << endl;*/
+
 	system("pause");
 	return 0;
 }
