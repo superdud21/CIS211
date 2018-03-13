@@ -37,7 +37,7 @@ int main()
 		else if (checkswritten >= 40 && checkswritten <= 59)
 		{
 			bankfees = checkswritten * fortyfifty;
-			cout << fixed << setprecision(2) << "Your bank fees foe this month will be: $" << bankfees << endl;
+			cout << fixed << setprecision(2) << "Your bank fees for this month will be: $" << bankfees << endl;
 		}
 		//Checks written 60 and greater
 		else if (checkswritten >= 60)
