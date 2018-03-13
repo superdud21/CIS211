@@ -4,7 +4,7 @@ in a given month
 */
 #include <iostream>
 #include <iomanip>
-using namespace std;
+using namespace std; 
 
 int main()
 {
